@@ -1,7 +1,7 @@
 # Cadastro com Flet & CRUD
 &nbsp;
-Sistema de Cadastro de pessoas desenvolvido em Python 
-
+Sistema de Cadastro de pessoas desenvolvido em Python
+&nbsp;
 utilizando para a interface gráfica o framework Flet.
 ---
 ## Versão 1.0
@@ -67,7 +67,7 @@ Python 3.9+
 Execute python `main.py` via terminal.
 &nbsp;
 
-* Apartir da versão ``V1.0`` o app foi empacotado, bastando apenas executar o arquivo `cadastro_CRUD.exe`
+* Apartir da versão ``V1.0`` o app foi empacotado, bastando apenas executar o arquivo `main.py`
 
 As funções estão disponíveis através de botões e menus.
 
