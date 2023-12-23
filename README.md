@@ -4,45 +4,54 @@ Sistema de Cadastro de pessoas desenvolvido em Python
 
 utilizando para a interface gráfica o framework Flet.
 ---
-### Versão 1.0
+## Versão 1.0
 
 &nbsp;
 
-> Pré-requisitos
+> ### Pré-requisitos
 
 Python 3.9+
+
+* Apartir da  versão V1.0
+  Windows 10 
  
 &nbsp;
   
-> Bibliotecas
+> ### Bibliotecas
  
 [Flet](https://flet.dev/docs/guides/python/getting-started/)
   
 [SQLite3](https://www.sqlite.org/docs.html)
 
+[Pyinstaller](https://pyinstaller.org/en/stable/)
+
 &nbsp;
 &nbsp;
 
-> Pré-code
+> ### Pré-code
 > > virtual environment
-### Feito via terminal, instalação de um ambiente virtual
+#### Feito via terminal, instalação de um ambiente virtual
     python -m venv env
     .\env\Scripts\activate
 
-&nbsp;
-&nbsp;
-    
-> Pré-code
 > > Instalando as bibliotécas
 
-    pip install flet db-sqlite3     
+    pip install flet db-sqlite3 pyinstaller  
+
+&nbsp;
+> ### Code
+> > Na versão V1.0 o app foi empacotado, bastando apenas executar o arquivo ``./dist/main.exe`` 
+
+* Empacotando para .exe 
+
+        pyinstaller --onefile main.py
+
 
 
 &nbsp;
 &nbsp;
 
-
-> Funcionalidades:
+> ### Funcionalidades:
 
 * Cadastrar novos usuários com nome, idade, contato, sexo, email e endereço
 * Listar todos os usuários cadastrados em uma tabela
@@ -53,13 +62,15 @@ Python 3.9+
 &nbsp;
 &nbsp;
 
-> Uso
+> ### Uso
+* Antes da versão V1.0
+Execute python `main.py` via terminal.
+&nbsp;
 
-Execute python `app.py` e acesse http://localhost:80 para utilizar a interface web.
+* Apartir da versão ``V1.0`` o app foi empacotado, bastando apenas executar o arquivo `cadastro_CRUD.exe`
 
 As funções estão disponíveis através de botões e menus.
 
-&nbsp;
 &nbsp;
 
 ### Implementação
