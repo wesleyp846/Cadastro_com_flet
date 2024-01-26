@@ -1,3 +1,5 @@
+# Projeto em pausa
+
 # Cadastro com Flet & CRUD
 &nbsp;
 Sistema de Cadastro de pessoas desenvolvido em Python
